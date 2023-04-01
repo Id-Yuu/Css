@@ -1,0 +1,5 @@
+/* CSS Screen shader - Arlethdesign
+   https://github.com/Id-Yuu/Js
+  =============================== */
+.readmodec{border-radius:3px;border:none;padding:5px 8px;color:#FFF;background:#444;outline:0;cursor:pointer;}
+#readmode.active{z-index:2147483647;margin:0;border-radius:0;padding:0;background:#111111!important;pointer-events:none;position:fixed;top:-10%;right:-10%;width:120%;height:120%;opacity:0.3600;mix-blend-mode:multiply;display:block}
