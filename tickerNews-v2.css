@@ -1,0 +1,133 @@
+.recentCaraousel {
+	margin: 10px 0 0;
+	width: auto
+}
+
+.ticker .data-content,
+.ticker .widget,
+.ticker .title {
+	height: 41.2px
+}
+
+.ticker .data-content ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	gap: 10px
+}
+
+.ticker .data-content li {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: flex-start;
+	align-items: center;
+	gap: 3px;
+	transition: all .2s ease-in-out;
+	padding: 3px;
+}
+
+.ticker .data-content li:nth-child(even) {
+	background-color: rgb(66 66 66 / 50%);
+}
+
+.recentAbout,
+.imgThumb {
+	display: flex;
+	width: max-content;
+	flex-direction: row;
+	gap: 5px;
+	align-items: center;
+	align-content: center;
+}
+
+.recentLabel a {
+	font-size: 12px;
+	background-color: #357ae8;
+	padding: 2px 5px;
+	border-radius: 5px;
+	color: #fff
+}
+
+.imgThumb .imgUrl {
+	width: 35px;
+	height: 35px;
+}
+
+.tickercontainer {
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+.tickercontainer .layoutCarousel {
+	position: relative;
+	overflow: hidden;
+	padding: 0 5px
+}
+
+.tickeroverlay-left {
+	display: none
+}
+
+.tickeroverlay-right {
+	display: none
+}
+
+.ticker .title {
+	float: left;
+	font-size: 15px;
+	color: #fff;
+	padding: 0 10px;
+	background: #0088ff;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center
+}
+
+.ticker .recentTitle {
+	display: block;
+	margin: 0 auto;
+}
+
+.ticker .recentTitle a {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.ticker .recentTitle a:hover {
+	color: #0088ff
+}
+
+.tickercontainer,
+.tickercontainer .layoutCarousel,
+ul.newsticker {
+	-webkit-transition: all 0 linear;
+	-moz-transition: all 0 linear;
+	-o-transition: all 0 linear;
+	transition: all 0 linear;
+	list-style: none;
+	margin: 0
+}
+
+.newsticker {
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+ul.newsticker {
+	-webkit-transition: all 0s linear;
+	-moz-transition: all 0s linear;
+	-o-transition: all 0s linear;
+	transition: all 0s linear;
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
